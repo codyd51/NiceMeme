@@ -136,7 +136,7 @@ NiceMemeListener* meme;
 	    						memeLabel.transform = CGAffineTransformScale(memeLabel.transform, 0.25, 0.25);
 	    					} completion:^(BOOL finished){
 	    						if (finished) {
-	    							[self _adjustIconViewsToAlpha:1.0];
+	    							[self turntTooHard];
 	    						}
 	    					}];
 	    				});
